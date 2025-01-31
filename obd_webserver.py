@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Google Sheets Setup
 SPREADSHEET_ID = "1uEBeT_JA1VPDJGYF2Tsf-2CkPeNJy6voO7R5mBUaEvQ"  # Replace with your Spreadsheet ID
 SHEET_NAME = "Sheet1"  # Change if needed
-CREDS_FILE = r'C:\Users\Admin\Downloads\car-data-logging-fc029dc0f2d4.json'  # Replace with your JSON file path
+CREDS_FILE = 'credentials.json'  # Replace with your JSON file path
 
 # Authenticate and connect to Google Sheets
 scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
